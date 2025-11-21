@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-/*
+
     // Connexion des boutons
     connect(ui->dropButton, &QPushButton::clicked,
             ui->openGLWidget, &SimulationWidget::dropObject);
@@ -25,7 +25,6 @@ MainWindow::MainWindow(QWidget *parent)
         ui->openGLWidget->setGravity(val / 10.0f);
     });
 
-*/
 }
 
 MainWindow::~MainWindow()
